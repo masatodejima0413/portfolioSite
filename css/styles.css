@@ -1,0 +1,34 @@
+
+body {
+    margin:0;
+    background-image: url(../img/louie-martinez-447964-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+header {
+    background-color:white;
+    opacity: 0.3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start {
+    margin: 16px;
+    
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+img {
+    height: 200px;
+}
