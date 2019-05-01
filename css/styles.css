@@ -1,16 +1,39 @@
 
 body {
     margin:0;
-    background-image: url(../img/louie-martinez-447964-unsplash.jpg);
+    /* background-size: cover;
+    background-position: 50% 50%; */
+    position: relative;
+}
+
+.wrapper{
+    width: 100%;
+    height:100%;
+}
+.wrapper div{
+    height:100%;
+    width:100%;
     background-size: cover;
     background-position: 50% 50%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: pink;
+    z-index: -1;
 }
+.wrapper div:not(:first-child) {
+    display: none;
+  }
 
 header {
     background-color:white;
-    opacity: 0.3;
+    opacity: 0.4;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
 }
 
 .start {
