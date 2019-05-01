@@ -8,7 +8,7 @@
 // document.body.style.backgroundImage = image4path;
 
 function slide() {
-    var speed = 3000;
+    var speed = 5000;
     var interval = 8000; 
     var slide = $('.wrapper div');
    
